@@ -17,22 +17,31 @@ elif gamerChoice == "2":
         print("Brosse-toi les dents bordel !")
     elif dragonChoice == "2":
         print("Tu as fermé la porte et tu peux retenter ta chance ! (c'est la 4, si tu es un peu neuneu)")
-        gamerChoice2 = input("Choisis 1,2, 3 ou 4... ")
-        if gamerChoice2 == "1":
-            gamerChoice2 = gamerChoice
-        elif gamerChoice2 == "2":
-            gamerChoice2 = gamerChoice
-        elif gamerChoice2 == "3":
-            gamerChoice2 = gamerChoice
-        elif gamerChoice2 == "4":
-            gamerChoice2 = gamerChoice
+        gamerChoice = input("Choisis 1,2, 3 ou 4... ")
+        if gamerChoice == "1":
+            print("Tu te retrouves face à un dragon endormi, ton haleine fetide le réveille !")
+            print("Tu es mort ! Brosse-toi les dents la prochaine fois !") 
+        elif gamerChoice == "2":
+            print("T'es pas futfut, tu es revenu dans la même pièce !")
+            print("Et le dragon est toujours là !")
+            print("Laisse toi bouffer, tu le mérites !")
+            
+        elif gamerChoice == "3":
+            print("Tu as trouvé un sac de croquette !")
+            print("Bravo, si on veut... tu peux toujours essayer de les donner au dragon !")
+        elif gamerChoice == "4":
+            print(" Tu as fait toutes les portes, casse-toi de mon château maintenant !")
+            print("Et n'oublie pas le chat !!! ")
+            print("Oui il y avait un chat")
         else:
-            print("Apparement tu ne sais pas ce qu'est un chiffre entre 1 et 4.")
-    else:
-        print("Apparement tu ne sais pas ce qu'est un chiffre entre 1 et 2.")
-elif gamerChoice == "4":
+            print("Apparement tu ne sais pas ce qu'est un chiffre entre 1 et 2.")
+elif gamerChoice == "3":
     print("Tu as trouvé un sac de croquette !")
     print("Bravo, si on veut... tu peux toujours essayer de les donner au dragon !")
+elif gamerChoice == "4":
+    print(" Tu as fait toutes les portes, casse-toi de mon château maintenant !")
+    print("Et n'oublie pas le chat !!! ")
+    print("Oui il y avait un chat")
 else:
     print("Apparement tu ne sais pas ce qu'est un chiffre entre 1 et 4.")
 
