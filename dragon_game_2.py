@@ -30,7 +30,7 @@ elif gamerChoice == "2":
             print("Tu as trouvé un sac de croquette !")
             print("Bravo, si on veut... tu peux toujours essayer de les donner au dragon !")
         elif gamerChoice == "4":
-            print(" Tu as fait toutes les portes, casse-toi de mon château maintenant !")
+            print("Tu as fait toutes les portes, casse-toi de mon château maintenant !")
             print("Et n'oublie pas le chat !!! ")
             print("Oui il y avait un chat")
         else:
@@ -39,9 +39,10 @@ elif gamerChoice == "3":
     print("Tu as trouvé un sac de croquette !")
     print("Bravo, si on veut... tu peux toujours essayer de les donner au dragon !")
 elif gamerChoice == "4":
-    print(" Tu as fait toutes les portes, casse-toi de mon château maintenant !")
+    print("Tu as fait toutes les portes, casse-toi de mon château maintenant !")
     print("Et n'oublie pas le chat !!! ")
     print("Oui il y avait un chat")
+    print("Je parie que tu as donné les croquettes au dragon !")
 else:
     print("Apparement tu ne sais pas ce qu'est un chiffre entre 1 et 4.")
 
