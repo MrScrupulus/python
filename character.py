@@ -1,0 +1,12 @@
+print ("Crée ton personnage !")
+nom= input("Comment s'appelle ton personnage ?")
+âge = input("Quel âge a ton personnage ?")
+sexe = input("Quel est le sexe de ton personnage ? (Homme/Femme)")
+force = input("Quelle est la force de ton personnage ? (1-10)")
+défense = input("Quelle est la défense de ton personnage ? (1-10)")
+
+print("Ton persos s'appelle " + nom)
+print("Il a " + âge + " ans")
+print("Il est " + sexe)
+print("Sa force est de " + force)
+print("Sa défense est de " + défense)
